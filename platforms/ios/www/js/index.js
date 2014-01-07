@@ -49,9 +49,7 @@ var app = {
             // limit capture operation to 3 media files, no longer than 10 seconds each
             // var options = { limit: 1, duration: 10 };
             // navigator.device.capture.captureAudio(captureSuccess, captureError, options);
-            window.setTimeout(function(){
-                console.log(window.device);
-            }, 1000)
+            console.log(window.device);
         }
 
         el.addEventListener("click", captureVoice, false);
